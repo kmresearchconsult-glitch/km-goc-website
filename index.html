@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#075B3B">
+<title>KM Group of Companies | KM GOC</title>
+<meta name="description" content="Welcome to KM Group of Companies, home to six dynamic business divisions in Ghana.">
+<style>
+:root {
+  --green: #075B3B;
+  --dark: #043D29;
+  --gold: #D5AC52;
+  --white: #FFFFFF;
+  --light: #F5F7F4;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: Arial, sans-serif; color: #24332B; line-height: 1.6; }
+header {
+  background: var(--green); color: white;
+  padding: 17px 7%; display: flex;
+  align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 12px;
+}
+.logo { color: var(--gold); font-size: 25px; font-weight: 900; }
+.logo span { color: white; font-size: 12px; display: block; letter-spacing: 2px; }
+nav { display: flex; flex-wrap: wrap; gap: 18px; }
+nav a { color: white; text-decoration: none; font-size: 14px; }
+nav a:hover { color: var(--gold); }
+.hero {
+  background: linear-gradient(120deg, #043D29, #08794C);
+  color: white; padding: 105px 8%; text-align: center;
+}
+.hero small { color: var(--gold); letter-spacing: 4px; font-weight: bold; }
+.hero h1 { font-size: clamp(34px, 6vw, 58px); margin: 18px 0; }
+.hero p { max-width: 650px; margin: auto; font-size: 17px; }
+.btn {
+  display: inline-block; margin-top: 27px; padding: 13px 25px;
+  background: var(--gold); color: #17291E;
+  border-radius: 5px; text-decoration: none; font-weight: bold;
+}
+section { padding: 70px 8%; }
+.section-title { text-align: center; margin-bottom: 35px; }
+.section-title h2 { color: var(--green); font-size: 31px; }
+.section-title p { color: #68766D; }
+.about { background: var(--light); text-align: center; }
+.about p { max-width: 800px; margin: auto; }
+.grid {
+  display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 20px;
+}
+.card {
+  padding: 28px 22px; background: white;
+  border-radius: 10px; border-bottom: 4px solid var(--gold);
+  box-shadow: 0 4px 18px #0000000c;
+}
+.card .number { color: var(--gold); font-size: 27px; font-weight: bold; }
+.card h3 { color: var(--green); margin: 10px 0; }
+.services { background: var(--light); }
+.contact { background: var(--green); color: white; text-align: center; }
+.contact h2 { color: var(--gold); margin-bottom: 15px; }
+.contact a { color: white; }
+footer {
+  background: var(--dark); color: white;
+  text-align: center; padding: 24px 10px; font-size: 13px;
+}
+@media(max-width:600px) {
+  header { justify-content: center; }
+  nav { justify-content: center; gap: 12px; }
+  section { padding: 55px 6%; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">KM GOC
+    <span>GROUP OF COMPANIES</span>
+  </div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#divisions">Divisions</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <small>WELCOME TO KM GOC</small>
+  <h1>Building Opportunities.<br>Creating Impact.</h1>
+  <p>A diversified business group committed to excellence, innovation and sustainable growth across multiple industries.</p>
+  <a class="btn" href="#divisions">Explore Our Businesses</a>
+</div>
+
+<section class="about" id="about">
+  <div class="section-title">
+    <h2>About KM GOC</h2>
+    <p>One Group. Six Divisions. One Vision.</p>
+  </div>
+  <p>KM Group of Companies is a growing business group based in Ghana, bringing together different business divisions under one corporate identity. Our vision is to create opportunities, deliver quality services and contribute to business and community development.</p>
+</section>
+
+<section id="divisions">
+  <div class="section-title">
+    <h2>Our Business Divisions</h2>
+    <p>Discover the six divisions of KM GOC.</p>
+  </div>
+  <div class="grid">
+    <div class="card"><div class="number">01</div><h3>KM Research Consult</h3><p>Research, academic support and consultancy services.</p></div>
+    <div class="card"><div class="number">02</div><h3>KM Football Centre</h3><p>Football development, sports activities and talent promotion.</p></div>
+    <div class="card"><div class="number">03</div><h3>KM Data Services</h3><p>Digital services, data solutions and technology support.</p></div>
+    <div class="card"><div class="number">04</div><h3>KM Ventures</h3><p>Business initiatives, enterprise and commercial opportunities.</p></div>
+    <div class="card"><div class="number">05</div><h3>KM Multimedia</h3><p>Creative media, photography, video and digital production.</p></div>
+    <div class="card"><div class="number">06</div><h3>KM Agribusiness</h3><p>Agricultural activities, farming and agribusiness development.</p></div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="section-title">
+    <h2>Why Choose KM GOC?</h2>
+    <p>Our commitment to quality and growth.</p>
+  </div>
+  <div class="grid">
+    <div class="card"><h3>Innovation</h3><p>Exploring new ideas and business opportunities.</p></div>
+    <div class="card"><h3>Excellence</h3><p>Committed to quality and professional service.</p></div>
+    <div class="card"><h3>Growth</h3><p>Building sustainable opportunities for the future.</p></div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact KM GOC</h2>
+  <p>We would love to hear from you.</p>
+  <p>Location: Twifo Praso, Ghana</p>
+  <p>Phone: <a href="tel:0546457971">0546457971</a></p>
+  <p>Email: <a href="mailto:promiseawuku2560@gmail.com">promiseawuku2560@gmail.com</a></p>
+  <a class="btn" href="https://wa.me/233546457971">Chat with us on WhatsApp</a>
+</section>
+
+<footer>
+  <p>© 2026 KM GROUP OF COMPANIES. All Rights Reserved.</p>
+  <p>KM GOC | Ghana</p>
+</footer>
+
+</body>
+</html>
